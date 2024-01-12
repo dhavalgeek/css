@@ -8,22 +8,63 @@
 </head>
 <body>
 	<div class="container">
-		<div class="navContainer">
-			<nav>
-				<ul id="navList">
-					<li>
-						<p id="navLogo">Recipe</p>
-					</li>
-					<li>
-						<div>
-							<a href="#">Home</a>
-							<a href="#">Contact</a>
-							<a href="#">About</a>
+		<header>
+			<div class="navContainer">
+				<nav>
+					<ul id="navList">
+						<li>
+							<p id="navLogo">Recipe</p>
+						</li>
+						<li>
+							<div id="navItems">
+								<a href="#">Home</a>
+								<a href="#">Contact</a>
+								<a href="#">About</a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="contentBox">
+				<!-- item1 -->
+				<section>
+					<div class="item">
+						<div class="leftBox">
+							<!-- Heading -->
+							<h2>Gulab Jamun</h2>
+							<h2>Ingredients</h2>
+							<ul>
+								<li>Sugar</li>
+								<li>Oil</li>
+								<li>Bread</li>
+							</ul>
+
+							<h2>Recipe</h2>
+							<ol>
+								<li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, facere?</li>
+								<li>Lorem ipsum dolor sit amet.</li>
+								<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis labore nemo porro. Cupiditate, ea dolore!</li>
+								<li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+							</ol>
 						</div>
-					</li>
-				</ul>
-			</nav>
-		</div>
+						<div class="rightBox"></div>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<footer>
+			<div class="footerBox">
+				<p>
+					Copyright &copy; Recipe - <span id="footerYear"></span>
+				</p>
+			</div>
+		</footer>
 	</div>
+
+	<script src="script.js"></script>
 </body>
 </html>
