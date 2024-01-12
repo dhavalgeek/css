@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	overflow-x: none;
+}
+
+.navContainer {
+	width: 100vw;
+	background-color: cornflowerblue;
+	min-height: 75px;
+}
+
+#navList {
+	list-style: none;
+	font-size: 2.75rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+#navLogo {
+	font-size: 2.75rem;
+}

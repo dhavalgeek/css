@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap");
+/* font-family: "Rubik Scribble"; */
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* .container {
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+	overflow: auto;
+} */
+/* 
+.box {
+	border: 1px solid black;
+	overflow: auto;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	margin: 2px;
+	background-color: aquamarine;
+	border: 1px solid black;
+	float: left;
+}
+
+#item1 {
+	float: right;
+}
+
+#item2 {
+	float: right;
+}
+
+#item3 {
+	float: right;
+} */
+
+/* .container {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	background: maroon;
+	position: relative;
+}
+
+img {
+	margin: 5px 10px;
+	border: 1px solid white;
+	object-fit: cover;
+}
+
+.img-2 {
+	left: 95px;
+	top: 75px;
+	position: absolute;
+} */
+
+/* 
+.box {
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	padding: 100px;
+}
+
+body {
+} */
+/* 
+img {
+	float: right;
+} */
+
+.container {
+	background-color: beige;
+	border: 5px solid black;
+	margin: 2px;
+	padding: 2px;
+	display: flex;
+	flex-direction: row;
+	height: 500px;
+	/* flex-wrap: wrap; */
+	justify-content: start;
+	align-content: center;
+	/* align-items: center; */
+}
+
+.box {
+	height: 250px;
+	width: 250px;
+	border: 2px solid brown;
+	margin: 2px;
+	padding: 2px;
+}
+
+#box1 {
+	background-color: aqua;
+	order: 100;
+	/* flex-shrink: 2; */
+	/* flex-grow: 1; */
+	flex-basis: 400px;
+	align-self: center;
+	flex: 100%;
+}
+
+#box2 {
+	background-color: blue;
+	flex: 10%;
+	/* flex-grow: 1; */
+}
+
+#box3 {
+	background-color: orange;
+	order: -1;
+	/* flex-grow: 1; */
+}
+
+#box4 {
+	background-color: brown;
+	/* flex-grow: 1; */
+}
