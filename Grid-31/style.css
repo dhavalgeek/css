@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	padding: 4rem;
+	display: grid;
+	gap: 1rem;
+	background: #a7a7a7;
+	/* grid-template-columns: repeat(3, 1fr); */
+	grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+}
+
+.item {
+	border: 1px solid black;
+	background-color: #82a8fb;
+	color: #fff;
+	padding: 1rem;
+}
