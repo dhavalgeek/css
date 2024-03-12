@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Scribble&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+	--primary-color: #F1B74D;
+	--white-color: #ffffff;
+	--black-color: #0B0A11;
+	/* --content-white-color: #232A35; */
+	--content-black-color: #777777;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Rubik", sans-serif;
+}
+
+.banner-container {
+	color: var(--white-color);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	background-color: #232A35;
+	background-image: url('./images/smoke.png');
+	overflow: hidden;
+}
+
+.navbar {
+	width: 90%;
+	height: 9%;
+	max-height: 9%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo {
+	font-size: 24px;
+}
+
+.navbar .navigation {
+	display: flex;
+	gap: 2.5rem;
+	align-items: center;
+	font-weight: 600;
+}
+
+.navbar .navigation ul {
+	display: flex;
+	gap: 2.5rem;
+	align-items: center;
+}
+
+.navbar .navigation ul li {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+.navbar .navigation a.contact-button {
+	text-decoration: none;
+	color: var(--white-color);
+	padding: 0.75rem 2.5rem;
+	background-color: var(--primary-color);
+	border-radius: 5px;
+}
+
+.inner-container {
+	width: 90%;
+	height: 82%;
+	border: 1px solid var(--primary-color);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 1rem;
+}
+
+.inner-container .images {
+	text-align: center;
+	position: relative;
+}
+
+.inner-container .images .man-img {
+	/* position: absolute; */
+	/* left: 75px;
+	top: 10px; */
+	object-fit: contain;
+	/* width: 580px; */
+	width: 30vw;
+}
+
+.inner-container .content-area {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 70%;
+	gap: 1.75rem;
+}
+
+.inner-container .content-area p {
+	color: var(--primary-color);
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.inner-container .content-area .title {
+	font-size: 62px;
+}
+
+.inner-container .content-area a {
+	text-decoration: none;
+	width: fit-content;
+	color: var(--white-color);
+	padding: 1rem 1.75rem;
+	border: 2px solid var(--white-color);
+	font-weight: 500;
+	border-radius: 5px;
+}
+
+.inner-container .content-area p.highlighter {
+	text-transform: uppercase;
+}

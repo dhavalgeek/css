@@ -107,7 +107,7 @@ nav.nav {
 	/* transition: all 5s; */
 }
 
-.nav-menus a::before {
+.nav-menus a::after {
 	content: "\f107";
 	position: absolute;
 	font-family: FontAwesome;
@@ -118,7 +118,7 @@ nav.nav {
 	/* transition: all 5s; */
 }
 
-.nav-menus a:hover::after {
+.nav-menus a:before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -127,7 +127,12 @@ nav.nav {
 	height: 2px;
 	background-color: var(--primary-color);
 	vertical-align: middle;
-	/* transition: all 5s; */
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.nav-menus a:hover:before {
+	opacity: 1;
 }
 
 .nav-menu-icon {
@@ -712,6 +717,10 @@ ul.tags-list li:hover {
 	padding-bottom: 2rem;
 	outline: none;
 	color: var(--secondary-text);
+}
+
+.footer-form textarea {
+	resize: none;
 }
 
 .send-message-button {
